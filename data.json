@@ -1,0 +1,214 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Oso de Peluche Classic",
+      "descripcion": "Oso de peluche suave y abrazable de 30cm",
+      "precio": 249.99,
+      "categoria": "Peluches"
+    },
+    {
+      "id": 2,
+      "nombre": "LEGO City Police",
+      "descripcion": "Set de construccion de estaci�n de polic�a",
+      "precio": 899.99,
+      "categoria": "Construccion"
+    },
+    {
+      "id": 3,
+      "nombre": "Barbie Fashionista",
+      "descripcion": "Muñeca Barbie con conjunto moderno",
+      "precio": 299.99,
+      "categoria": "Muñecas"
+    },
+    {
+      "id": 4,
+      "nombre": "Hot Wheels Pack 5",
+      "descripcion": "Set de 5 carritos Hot Wheels diferentes",
+      "precio": 129.99,
+      "categoria": "Vehiculos"
+    },
+    {
+      "id": 5,
+      "nombre": "Pelota Anti-estres",
+      "descripcion": "Pelota sensorial con texturas",
+      "precio": 49.99,
+      "categoria": "Educativos"
+    },
+    {
+      "id": 6,
+      "nombre": "Monopoly Clasico",
+      "descripcion": "Juego de mesa familiar Monopoly",
+      "precio": 499.99,
+      "categoria": "Juegos de Mesa"
+    },
+    {
+      "id": 7,
+      "nombre": "Plastilina Pack",
+      "descripcion": "Set de 10 colores de plastilina",
+      "precio": 79.99,
+      "categoria": "Arte"
+    },
+    {
+      "id": 8,
+      "nombre": "Dinosaurio T-Rex",
+      "descripcion": "Figura articulada de dinosaurio",
+      "precio": 199.99,
+      "categoria": "Figuras de Accion"
+    },
+    {
+      "id": 9,
+      "nombre": "Rompecabezas 1000",
+      "descripcion": "Puzzle de 1000 piezas paisaje",
+      "precio": 299.99,
+      "categoria": "Puzzles"
+    },
+    {
+      "id": 10,
+      "nombre": "Carro RC Veloz",
+      "descripcion": "Carro control remoto todoterreno",
+      "precio": 599.99,
+      "categoria": "Control Remoto"
+    },
+    {
+      "id": 11,
+      "nombre": "Set Doctor Infantil",
+      "descripcion": "Kit de doctor con accesorios",
+      "precio": 149.99,
+      "categoria": "Rol"
+    },
+    {
+      "id": 12,
+      "nombre": "Guitarra Musical",
+      "descripcion": "Guitarra de juguete con sonidos",
+      "precio": 179.99,
+      "categoria": "Musicales"
+    },
+    {
+      "id": 13,
+      "nombre": "Robot Interactivo",
+      "descripcion": "Robot que baila y habla",
+      "precio": 399.99,
+      "categoria": "Electronicos"
+    },
+    {
+      "id": 14,
+      "nombre": "Cocina Infantil",
+      "descripcion": "Set de cocina con accesorios",
+      "precio": 699.99,
+      "categoria": "Rol"
+    },
+    {
+      "id": 15,
+      "nombre": "Pelota Futbol",
+      "descripcion": "Pelota de futbol tamaño 4",
+      "precio": 129.99,
+      "categoria": "Deportes"
+    },
+    {
+      "id": 16,
+      "nombre": "Unicornio Brillante",
+      "descripcion": "Peluche de unicornio con luces",
+      "precio": 279.99,
+      "categoria": "Peluches"
+    },
+    {
+      "id": 17,
+      "nombre": "Play-Doh Pack",
+      "descripcion": "Set de 8 botes Play-Doh",
+      "precio": 199.99,
+      "categoria": "Arte"
+    },
+    {
+      "id": 18,
+      "nombre": "Pista Hot Wheels",
+      "descripcion": "Pista de carreras con loop",
+      "precio": 449.99,
+      "categoria": "Vehiculos"
+    },
+    {
+      "id": 19,
+      "nombre": "Bebes Llorones",
+      "descripcion": "Muñeca que llora lagrimas reales",
+      "precio": 449.99,
+      "categoria": "Muñecas"
+    },
+    {
+      "id": 20,
+      "nombre": "Jenga XXL",
+      "descripcion": "Jenga tamaño gigante",
+      "precio": 399.99,
+      "categoria": "Juegos de Mesa"
+    },
+    {
+      "id": 21,
+      "nombre": "Set Superheroes",
+      "descripcion": "Pack 4 figuras superh�roes",
+      "precio": 299.99,
+      "categoria": "Figuras de Accion"
+    },
+    {
+      "id": 22,
+      "nombre": "Xilofono Colorido",
+      "descripcion": "Xilofono infantil 8 notas",
+      "precio": 149.99,
+      "categoria": "Musicales"
+    },
+    {
+      "id": 23,
+      "nombre": "Drone Mini",
+      "descripcion": "Mini drone para principiantes",
+      "precio": 799.99,
+      "categoria": "Control Remoto"
+    },
+    {
+      "id": 24,
+      "nombre": "Caja Herramientas",
+      "descripcion": "Set herramientas de juguete",
+      "precio": 169.99,
+      "categoria": "Rol"
+    },
+    {
+      "id": 25,
+      "nombre": "Tablero Magnatico",
+      "descripcion": "Pizarra magn�tica con letras",
+      "precio": 199.99,
+      "categoria": "Educativos"
+    },
+    {
+      "id": 26,
+      "nombre": "Peluche Pokemon",
+      "descripcion": "Pikachu de peluche 25cm",
+      "precio": 249.99,
+      "categoria": "Peluches"
+    },
+    {
+      "id": 27,
+      "nombre": "LEGO Friends",
+      "descripcion": "Casa de muñecas LEGO",
+      "precio": 799.99,
+      "categoria": "Construccion"
+    },
+    {
+      "id": 28,
+      "nombre": "Carro Bomberos",
+      "descripcion": "Camopn bomberos con sonidos",
+      "precio": 349.99,
+      "categoria": "Vehiculos"
+    },
+    {
+      "id": 29,
+      "nombre": "UNO Cartas",
+      "descripcion": "Juego de cartas UNO familiar",
+      "precio": 119.99,
+      "categoria": "Juegos de Mesa"
+    },
+    {
+      "id": 30,
+      "nombre": "Kit Cientifico",
+      "descripcion": "Set experimentos b�sicos",
+      "precio": 299.99,
+      "categoria": "Educativos"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugueteria - Sistema de Gestion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fondo"></div>
+    <div class="container">
+        <div class="titulo">
+        <h1>Sistema de Gestion de Jugueteria </h1>
+        </div>
+        <div class="contenido">
+            <div class="form-section">
+    <h2>Gestionar Producto</h2>
+    <form id="productoForm">
+        <input type="hidden" id="editando" value="false">
+        <input type="hidden" id="productoID">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripcion:</label>
+            <textarea id="descripcion" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="categoria">Categoria:</label>
+            <input type="text" id="categoria" required>
+        </div>
+        <button type="submit">Guardar Producto</button>
+    </form>
+
+    <h3>Eliminar Producto</h3>
+    <form id="eliminarForm">
+        <div class="form-group">
+            <label for="productoIDEliminar">Escriba el id del juguete para eliminarlo :</label>
+            <input type="text" id="productoIDEliminar" required>
+        </div>
+        <button type="button" onclick="eliminarProducto()">Eliminar Producto</button>
+    </form>
+</div>
+
+        <div class="controls-section">
+            <div class="search-box">
+                <input type="text" id="busqueda" placeholder="Buscar por nombre...">
+                <button onclick="buscarProducto()">Buscar</button>
+            </div>
+            <div class="sort-controls">
+                <label>Ordenar por:</label>
+                <select id="ordenamiento" onchange="ordenarProductos()">
+                    <option value="nombre-asc">Nombre (A-Z)</option>
+                    <option value="nombre-desc">Nombre (Z-A)</option>
+                    <option value="precio-asc">Precio (Menor a Mayor)</option>
+                    <option value="precio-desc">Precio (Mayor a Menor)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="products-section">
+            <h2>Lista de Productos</h2>
+            <div id="listaProductos"></div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
